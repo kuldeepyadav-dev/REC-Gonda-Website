@@ -1,0 +1,1341 @@
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.top-bar {
+    background-color: darkred;
+    color: white;
+    padding: 12px;
+}
+
+.icons {
+    height: 40px;
+    width: auto;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ic {
+    height: 40px;
+    width: 40px;
+    border: 2px dotted orange;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    flex-shrink: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.t {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.text1 {
+    color: darkred;
+}
+
+.line1 {
+    width: 600px;
+}
+
+.bg-darkred {
+    background-color: darkred !important;
+}
+
+.bg-darkred .navbar-brand,
+.bg-darkred .nav-link {
+    color: white !important;
+}
+
+.line2 {
+    height: 30px;
+    width: 1px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.announcement {
+    background-color: darkred;
+}
+
+.marquee {
+    height: 50px;
+    background-color: darkred;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.pause {
+    background-color: rgb(155, 155, 155);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.border1 {
+    border-bottom: 2px solid orange;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.bgdarkred {
+    background-color: darkred;
+}
+
+
+/* Home Carousel */
+
+
+/* HOME CAROUSEL */
+#carouselExampleCaptions .carousel-item {
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/* SLIDE 1 */
+#carouselExampleCaptions .slide1 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://recgonda.ac.in/Content/img/image/col1.jpg");
+}
+
+/* SLIDE 2 */
+#carouselExampleCaptions .slide2 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1600&q=80");
+}
+
+/* SLIDE 3 */
+#carouselExampleCaptions .slide3 {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1600&q=80");
+}
+
+/* CAPTION */
+#carouselExampleCaptions .carousel-caption {
+    z-index: 2;
+    bottom: 100px;
+}
+
+#carouselExampleCaptions .carousel-caption h5 {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+#carouselExampleCaptions .carousel-caption p {
+    font-size: 17px;
+    color: white;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 576px) {
+    #carouselExampleCaptions .carousel-item {
+        height: 350px;
+    }
+
+    #carouselExampleCaptions .carousel-caption {
+        bottom: 30px;
+    }
+
+    #carouselExampleCaptions .carousel-caption h5 {
+        font-size: 20px;
+    }
+
+    #carouselExampleCaptions .carousel-caption p {
+        font-size: 13px;
+    }
+}
+/* HOME CAROUSEL END */
+
+
+/* Mentor Section */
+
+.mentor {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.mentores {
+    background-color: darkred;
+}
+
+.mentor .card {
+    min-height: 320px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in;
+}
+
+.mentor .card:hover {
+    transform: translateY(-10px);
+}
+
+.mentor-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid darkred;
+    margin-top: 15px;
+    transition: all 0.4s ease-in;
+}
+
+.mentor .card:hover .mentor-img {
+    transform: scale(1.05);
+}
+
+.mentor .card-title {
+    color: maroon;
+    font-weight: bold;
+}
+
+.mentor .card-text {
+    font-weight: bold;
+}
+
+.hr1 {
+    width: 80px;
+    height: 3px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    opacity: 1;
+    margin: 0 auto;
+}
+
+/* Director Message */
+
+.Director {
+    color: darkred;
+    margin-left: 125px;
+    font-weight: 500;
+}
+
+.image-outer {
+    min-height: 550px;
+    width: 379.5px;
+    border: 1px solid gray;
+}
+
+.d-image {
+    height: 350px;
+    width: 340px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.hr2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.post {
+    margin-top: 0 !important;
+    margin-left: 40px;
+    margin-bottom: 0 !important;
+}
+
+.message-text {
+    min-height: 450px;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+.Dear {
+    color: darkred;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.main-text {
+    margin-left: 50px;
+    margin-top: 20px;
+    line-height: 2;
+    font-weight: 400;
+}
+
+/* Video */
+
+.ved {
+    box-shadow: 0px 0px 1px;
+}
+
+.video {
+    height: 95%;
+    width: 98%;
+}
+
+.v {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Home Page Cards */
+
+.card-img-top1 {
+    height: 250px;
+    width: 300px;
+    margin-left: 75px;
+    border: 1px solid;
+}
+
+.card-img-top2 {
+    margin-top: 47px;
+    height: 250px;
+    width: 300px;
+    margin-left: 60px;
+}
+
+.card-img-top3 {
+    margin-top: 47px;
+    height: 250px;
+    width: 340px;
+    margin-left: 10px;
+}
+
+.card-img-top4 {
+    margin-top: 47px;
+    height: 250px;
+    width: 300px;
+}
+
+.card-body1 {
+    width: 300px;
+    background-color: white;
+    margin-left: 74px;
+}
+
+.card-body2 {
+    width: 300px;
+    background-color: white;
+    margin-left: 60px;
+}
+
+.card-body3 {
+    width: 340px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.card-body4 {
+    width: 300px;
+    background-color: white;
+}
+
+.card-title1 {
+    height: 50px;
+    padding: 13px;
+    margin-left: 25px;
+    color: darkred;
+    font-weight: bold;
+}
+
+.read-button {
+    background-color: darkred;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+/* Facilities */
+
+.main-5 {
+    min-height: 400px;
+    width: 100%;
+    background-color: white;
+}
+
+.header-1 {
+    height: 50px;
+    width: 100%;
+    background: rgb(255, 191, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-1 h5 {
+    font-size: 19px;
+    font-weight: 700;
+    color: black;
+    margin: 0;
+}
+
+.card-b {
+    background-color: white;
+    color: black;
+    flex: 1;
+}
+
+.theme-warning1 {
+    border-top: 50px solid orange;
+    border-radius: 3px;
+}
+/* this is course section */
+
+/* OUR COURSES */
+#courses {
+    padding-bottom: 40px;
+    color: darkred;
+}
+
+#courses .course-card {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#courses .course-card:hover {
+    transform: translateY(-5px);
+}
+
+#courses .course-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 0;
+}
+
+#courses .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+#courses .card-title {
+    font-size: 17px;
+    font-weight: 600;
+    min-height: 42px;
+    margin-bottom: 10px;
+}
+
+#courses .card-body hr {
+    margin: 5px 0 15px;
+}
+
+#courses .read-button {
+    width: 130px;
+    margin: auto auto 0;
+    padding: 8px 12px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#courses .read-button:hover {
+    background-color: #8b0000;
+}
+
+#courses .hr1 {
+    width: 100px;
+    height: 4px;
+    margin: 10px auto;
+    border: none;
+    opacity: 1;
+}
+
+@media (max-width: 576px) {
+    #courses .course-img {
+        height: 220px;
+    }
+
+    #courses .card-title {
+        font-size: 18px;
+    }
+}
+/* OUR COURSES END */
+
+/* this is course section */
+
+/* RECENT ACTIVITIES */
+#recent-activities {
+    padding-bottom: 30px;
+    color: darkred;
+}
+
+#recent-activities .card {
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#recent-activities .card:hover {
+    transform: translateY(-5px);
+}
+
+#recent-activities .activity-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 0;
+}
+
+@media (max-width: 576px) {
+    #recent-activities .activity-img {
+        height: 200px;
+    }
+}
+/* RECENT ACTIVITIES END */
+
+
+/* About Carousel */
+
+#aboutCarousel .carousel-item {
+    height: 375px;
+    position: relative;
+    overflow: hidden;
+}
+
+#aboutCarousel .carousel-item.about-slide1 {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/049/725/830/small_2x/closeup-of-a-stack-of-books-at-a-local-library-a-resource-for-families-to-gather-and-learn-together-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#aboutCarousel .about-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#aboutCarousel .about-slide-content {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    right: 0;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 2;
+}
+
+#aboutCarousel .about-slide-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+#aboutCarousel .about-slide-content p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* About Content */
+
+.about {
+    color: darkred;
+    font-weight: 600;
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+    display: inline-block;
+}
+
+.para {
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.about-img {
+    padding: 20px;
+    height: 400px;
+    width: 600px;
+    border-radius: 30px;
+}
+
+.latter {
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Governance Section */
+
+.main-bg {
+    min-height: 400px;
+    width: 100%;
+    background-image: url("https://recgonda.ac.in/Content/img/image/col3.jpg");
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.main-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.main-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    max-width: 650px;
+}
+
+.main-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-content p {
+    font-size: 18px;
+}
+
+.main-content .btn {
+    margin-top: 10px;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 768px) {
+
+    #carouselExampleCaptions .carousel-item {
+        height: 350px;
+    }
+
+    #aboutCarousel .carousel-item {
+        height: 300px;
+    }
+
+    #aboutCarousel .about-slide-content {
+        left: 25px;
+        right: 20px;
+    }
+
+    #aboutCarousel .about-slide-content h1 {
+        font-size: 28px;
+    }
+
+    .about-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Director {
+        margin-left: 0;
+    }
+
+    .d-image {
+        max-width: 90%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .main-bg {
+        padding: 25px;
+    }
+
+    .main-content h1 {
+        font-size: 30px;
+    }
+}
+
+/* this image section */
+  .director-imgage{
+    height: 320px;
+    width: 330px;
+    border: 5px solid darkred;
+  }
+  .heading-text{
+     color: darkred;
+     font-weight: 700;
+     margin-top: 10px;
+}
+  .span-text{
+    font-weight: 700;
+  }
+/* this image section */
+
+
+/* this is accedemic section */
+.Officials{
+    border: 1px solid;
+    width: 85%;
+    margin-left: 120px;
+    background-color: darkred;
+    color: white;
+    padding: auto;
+      border: 1px solid black;
+}
+.data-std {
+    font-weight: 400;
+    width: 85%;
+    height: 40px;
+    margin-left: 120px;
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+}
+/* this is accedemic section */
+
+/* this is placement section  */
+
+.Overview{
+
+    color: darkred;
+    font-size: 25px;
+    font-weight: 800;
+}
+/* this is placement section  */
+
+/* this is students section  */
+.scholarship-img{
+height: 350px;
+width: 600px;
+padding: 0px !important;
+border-radius: 15px;
+}
+/* this is students section  */
+
+
+
+/* FACULTY SECTION */
+.faculty-heading {
+    color: darkred;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.faculty-card {
+    align-items: center;
+    padding: 20px 10px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.faculty-card:hover {
+    transform: translateY(-5px);
+}
+
+.faculty-img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    max-width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 4px solid darkred;
+}
+
+.faculty-card .card-body {
+    width: 100%;
+}
+
+.faculty-card .card-title {
+    color: darkred;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.faculty-card .card-text {
+    color: #666;
+    font-size: 14px;
+}
+
+@media (max-width: 576px) {
+    .faculty-heading {
+        font-size: 28px;
+    }
+
+    .faculty-img {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+.btn-faculty{
+    background-color: darkred;
+    border: none;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border-radius: 30px;
+}
+
+/* FACULTY SECTION END */
+
+
+/* this is contact pages */
+.main-heading{
+    color: darkred;
+    font-weight: bold;
+}
+.main-line{
+    margin-top: 0px;
+    background-color: gray;
+    width: 100px;
+}
+.main-cotes{
+    font-size: 17px;
+    line-height: 2;
+    font-weight: 400;
+}
+.main-btn {
+    height: 110px;
+    background-color: white;
+    transition: 0.3s;
+    text-align: left;
+    padding: 10px;
+    
+}
+
+.main-btn:hover {
+    transform: translateY(-3px);
+}
+
+.main-post{
+    color: darkred;
+}
+.main-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+ul {
+    padding-left: 30px;
+    list-style: none;
+    
+}
+
+.main-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.main-btn-last {
+    background-color: darkred;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-btn-last:hover {
+    background-color: #8b0000;
+    transform: translateY(-3px);
+}
+
+/* this is contact pages end*/
+body{
+    overflow-x: hidden;
+}
+
+
+/* .this is gallary sections */
+ .heading-pic{
+    color: darkred;
+    font-weight: bold;
+ }
+.gallary-heading{
+    width: 180px;
+    color: darkred;
+   background-color: white;
+   font-size: 25px;
+   font-weight: 500;
+   transition: transform 0.3s;
+   border: 1px solid darkred;
+   white-space: nowrap;
+   margin-top: 20px;
+}
+
+.gallary-heading:hover{
+    transform: scale(1.1);
+    background-color: darkred;
+    color: white;
+    transition: 0.3s;
+}  
+
+.img-gallary{
+    width: 100%;
+    border-radius: 10px;
+}
+.img-gallary:hover{
+    transform: perspective(500px) translateZ(10px);
+}
+
+/* this is gallary sections end*/
+
+/* this is video sections */
+.gallary-video{
+    width: 100%;
+}
+.media{
+    width: 100%;
+}
+/* this is video sections end*/
+
+/* this is department sections */
+.list-group-item{
+    font-size: 16px;
+    font-weight: 500;
+}
+.list-group-item span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.list-group-item:hover span {
+    transform: translateX(5px);
+}
+
+.Science {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.Profile{
+    color: darkred;
+    font-weight: 600;
+}
+/* this is department sections end*/
+
+/* this is iqac sections */
+.text-heading{
+    height: 40px;
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 10px;
+}
+.Internal {
+    text-align: center;
+    padding: 10px;
+}
+.download-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* this is iqac sections end*/
+/* this is dropdown sections */
+
+.about-dropdown {
+    position: relative;
+}
+
+.about-dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: darkred;
+    min-width: 435px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.about-dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.about-dropdown .dropdown-item {
+    color: white;
+    padding: 8px 20px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.about-dropdown .dropdown-item:hover {
+    background-color: #800000;
+    color: white;
+}
+.about-dropdown .dropdown-menu {
+    min-width: 350px;
+    max-width: 450px;
+}
+
+/* this is dropdown sections end*/
+/* this is cell sections */
+
+.table-heading th {
+    background-color: darkred;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.table td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.table {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* this is cell sections end*/
+
+
+/* =========================================================
+   RESPONSIVE FIXES - appended overrides
+   Keeps the existing desktop design unchanged.
+   ========================================================= */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    min-width: 0;
+}
+
+img, video, iframe, embed, object, svg {
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+/* Prevent long text and flex/grid children from forcing page width. */
+.container, .container-fluid, .row,
+[class*="col-"], .card, .card-body,
+section, header, footer, main {
+    min-width: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, a, li, td, th {
+    overflow-wrap: anywhere;
+}
+
+/* Tables scroll inside their own area instead of widening the page. */
+table {
+    max-width: 100%;
+}
+.table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav {
+        align-items: stretch;
+    }
+
+    .navbar .nav-link {
+        white-space: normal;
+    }
+
+    .about-dropdown .dropdown-menu {
+        position: static;
+        float: none;
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        box-shadow: none;
+    }
+
+    .about-dropdown .dropdown-item {
+        white-space: normal;
+        font-size: 16px;
+    }
+
+    .about-dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .Director,
+    .Dear,
+    .main-text,
+    .post,
+    .hr2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Officials,
+    .data-std {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .line1,
+    .about-img,
+    .scholarship-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image-outer {
+        width: 100%;
+        max-width: 100%;
+        min-height: 0;
+    }
+
+    .d-image,
+    .director-imgage {
+        display: block;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-img-top1,
+    .card-img-top2,
+    .card-img-top3,
+    .card-img-top4,
+    .card-body1,
+    .card-body2,
+    .card-body3,
+    .card-body4 {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .card-img-top1,
+    .card-img-top2,
+    .card-img-top3,
+    .card-img-top4 {
+        height: auto;
+        object-fit: cover;
+    }
+
+    .main-bg {
+        padding: 30px 20px;
+    }
+
+    .about-dropdown .dropdown-menu.show {
+        display: block;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .top-bar {
+        padding: 8px 10px;
+    }
+
+    .icons {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .t {
+        white-space: normal;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .line2 {
+        display: none;
+    }
+
+    .mentor {
+        padding: 20px 10px;
+    }
+
+    .mentor .card {
+        padding: 20px 15px;
+    }
+
+    #aboutCarousel .about-slide-content {
+        left: 16px;
+        right: 16px;
+    }
+
+    #aboutCarousel .about-slide-content h1 {
+        font-size: clamp(22px, 6vw, 28px);
+    }
+
+    #aboutCarousel .about-slide-content p {
+        font-size: 15px;
+    }
+
+    .main-content h1 {
+        font-size: clamp(24px, 7vw, 30px);
+    }
+
+    .main-content p {
+        font-size: 16px;
+    }
+
+    .faculty-heading {
+        font-size: 28px;
+    }
+
+    .text-heading {
+        height: auto;
+        min-height: 40px;
+        overflow-wrap: anywhere;
+    }
+
+    .gallary-heading {
+        max-width: 100%;
+        white-space: normal;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container,
+    .container-fluid {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row {
+        --bs-gutter-x: 1rem;
+    }
+
+    #carouselExampleCaptions .carousel-item {
+        height: 300px;
+    }
+
+    #carouselExampleCaptions .carousel-caption {
+        left: 12%;
+        right: 12%;
+        bottom: 18px;
+    }
+
+    #carouselExampleCaptions .carousel-caption h5 {
+        font-size: 18px;
+    }
+
+    #carouselExampleCaptions .carousel-caption p {
+        font-size: 12px;
+    }
+
+    #aboutCarousel .carousel-item {
+        height: 260px;
+    }
+
+    .about-img,
+    .scholarship-img {
+        padding: 8px;
+        border-radius: 14px;
+    }
+
+    .para {
+        margin-top: 18px;
+        font-size: 16px;
+    }
+
+    .main-text {
+        line-height: 1.7;
+    }
+
+    .card-img-top1,
+    .card-img-top2,
+    .card-img-top3,
+    .card-img-top4 {
+        margin-top: 12px;
+    }
+
+    .card-title1 {
+        height: auto;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .image-outer {
+        padding: 12px;
+    }
+
+    .d-image,
+    .director-imgage {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-btn {
+        height: auto;
+        min-height: 80px;
+    }
+
+    .main-btn-last {
+        max-width: 100%;
+        white-space: normal;
+    }
+
+    .table td,
+    .table th {
+        padding: 8px;
+        font-size: 13px;
+    }
+}
